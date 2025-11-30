@@ -1,5 +1,4 @@
 {
-  "version": 2,
   "builds": [
     {
       "src": "server.ts",
@@ -11,5 +10,6 @@
       "src": "/(.*)",
       "dest": "server.ts"
     }
-  ]
+  ],
+  "installCommand": "pnpm install --no-frozen-lockfile"
 }

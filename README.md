@@ -1,7 +1,6 @@
-# Personalized Browser Home Page Backend
-
+# Personalized Browser Home Page 
 ## Overview
-This project is a Node.js Express server built with TypeScript, designed to power a personalized browser home page extension by providing dynamic weather data and random background images through robust API endpoints.
+This project is a Node.js Express server built with TypeScript, designed to power a personalized browser home page extension by providing dynamic weather data and random background images.
 
 ## Features
 - **Dynamic Weather Integration**: Fetches real-time weather data based on the client's IP address.
@@ -28,7 +27,7 @@ To set up and run this project locally, follow these steps:
 
 3.  **Install Dependencies**
     ```bash
-    npm install
+    pnpm install
     ```
 
 ### Environment Variables
@@ -179,7 +178,7 @@ A JSON object representing a random image from Unsplash.
 After completing the installation and setting up environment variables, start the development server:
 
 ```bash
-npm start
+pnpm start
 ```
 
 The server will typically run on `http://localhost:3030` (or the `PORT` specified in your `.env` file). It serves both the API endpoints described above and static frontend files (e.g., `index.html`) from the `public` directory. This setup allows the backend to serve as a complete solution for a browser extension, handling data fetching and presentation.
@@ -216,9 +215,8 @@ This project is licensed under the ISC License. For more details, refer to the `
 ## Author Info
 
 **Samuel Tuoyo**
-*   **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/your_username)
-*   **Twitter**: [@your_twitter_handle](https://twitter.com/your_twitter_handle)
-*   **Portfolio**: [Your Personal Website](https://your-portfolio-website.com)
+- [Twitter](https://x.com/TuoyoS26091)
+- [LinkedIn](https://www.linkedin.com/in/samuel-tuoyo-8568b62b6)
 
 ---
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
