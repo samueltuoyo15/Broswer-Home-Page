@@ -1,0 +1,8 @@
+{
+"manifest_version": 3,
+"name": "Home Page",
+"version": "1.0",
+"chrome_url_overrides": {
+"newtab": "https://broswer-home-page.vercel.app/"
+}
+}
